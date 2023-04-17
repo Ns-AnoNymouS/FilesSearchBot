@@ -9,8 +9,6 @@ from marshmallow.exceptions import ValidationError
 from info import DATABASE_URI, DATABASE_NAME, COLLECTION_NAME, USE_CAPTION_FILTER
 from .helpers import unpack_new_file_id
 
-from asyncio import coroutine
-
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
